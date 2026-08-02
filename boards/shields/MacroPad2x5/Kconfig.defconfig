@@ -3,10 +3,4 @@ if SHIELD_MacroPad2x5
 config ZMK_KEYBOARD_NAME
 	default "MacroPad2x5"
 
-config EC11
-	default y
-
-config EC11_TRIGGER_GLOBAL_THREAD
-	default y
-
 endif

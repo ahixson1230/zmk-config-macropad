@@ -36,7 +36,7 @@
 		compatible = "alps,ec11";
 		a-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
 		b-gpios = <&pro_micro 16 GPIO_ACTIVE_HIGH>;
-		resolution = <4>;
+		steps = <80>;
 		status = "okay";
 	};
 
